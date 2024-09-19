@@ -89,13 +89,26 @@
             width: 100%;
         }
 
-        .speaker-photo {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            margin-right: 30px;
-        }
 
+
+
+	.speaker-not-photo {
+	    height: 200px; /* Fixed height */
+	    width: auto; /* Adjust width automatically to maintain aspect ratio */
+	    border-radius: 50%;
+	    margin-right: 30px;
+	}
+
+ 
+	.speaker-photo {
+	    width: 200px;   /* Fixed width */
+	    height: 200px;  /* Fixed height */
+	    object-fit: cover;  /* Ensures the image covers the area without stretching */
+	    border-radius: 50%; /* Optional for circular images */
+	    margin-right: 30px;
+	}
+
+ 
         .speaker-details {
             text-align: left;
         }

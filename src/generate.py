@@ -78,3 +78,5 @@ for (file_name, page_name) in file_list:
         f.write(output)
     print(f"+ generated '{output_file_name}'")
 
+
+# <a href="https://6g-workshop.sciencesconf.org/registration?lang=en">(click here to register)</a>
