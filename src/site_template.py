@@ -281,7 +281,7 @@ BANNER = '''
                 <p class="header-title">Indo-French Seminar </p>
                 
                 <p class="header-title">6G Wireless Networks: Challenges and Opportunities</p>
-                <p class="header-title"> October 9 - 11, 2024</p>
+                <p class="header-title"> October 9 - 10 - 11, 2024</p>
                 
             </div>
 
@@ -296,9 +296,22 @@ BANNER = '''
                     <div class="col-6">
                         <img src="img/indianLogo.png" alt="IIT Guwahati  Logo" class="img-fluid mb-2">
                     </div>
-                      <div class="col-12">
+<!--
+                    <div class="col-12">
                         <img src="img/InriaLogo2.png" alt="Inria Logo" class="img-fluid mt-2">
                     </div>
+                      <div class="col-12">
+                        <img src="img/france-relance.png" alt="Funded by France Relance" class="img-fluid mt-2">
+                    </div>
+-->
+                    <div class="col-6">
+                        <img src="img/InriaLogo2.png" alt="Inria Logo" class="img-fluid mb-2">
+                    </div>
+                      <div class="col-6">
+                        <img src="img/france-relance.png" alt="Funded by France Relance" class="img-fluid mb-2">
+                    </div>
+
+
 
 
                 </div>
@@ -338,7 +351,8 @@ NAVBAR = '''
 
 FOOTER = '''
       <footer class="text-center mt-5">
-        <p>© 2024 6G Wireless Networks Workshop | Funded by CEFIPRA</p>
+        <p>© 2024 organizers of the "6G Wireless Networks" seminar | Funded by CEFIPRA and Inria</p>
+<p>Contacts: <a href="mailto:cedric.adjih@inria.fr">Cedric Adjih (Inria)</a> and <a href="mailto:kuntaldeka@iitg.ac.in">Kuntal Deka (IIT Guwahati)</a></p>
     </footer>
 '''
 

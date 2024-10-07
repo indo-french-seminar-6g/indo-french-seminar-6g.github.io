@@ -33,7 +33,7 @@
                            - Welcome and Opening Address (10 min)<br>
                            <!-- - <s>Address from CEFIPRA Director - Title TBD (20 min)</s><br> -->
                            - Dimitri Kt&eacute;nas (CEA):  Overview of the French Priority Research Program and Equipments for the Networks of the Future (30 min)<br>
-                           - Vinod Kumar (WWRF): 6G Vision and Standardization on ITU (30 min)</td>
+                           - Vinod Kumar (WWRF): 6G Vision and Standardization in ITU (30 min)</td>
                    </tr>
                    <tr>
                        <td>10:50 - 11:20</td>
@@ -44,7 +44,7 @@
                        <td>Session 1<br>
                            - Philippe Jacquet (Inria, Saclay): The Energy Differentiated Field Theorem (30 min)<br>
                            - A. Rajesh (IIT Guwahati): Error Correcting Codes for 5G NR (30 min)<br>
-                           - Siddhartha Suruj Borkotoki (IIT Bhubaneswar): Rateless Coding for IoT Networks (30 min)</td>
+                           - Siddhartha Suruj Borkotoky (IIT Bhubaneswar): Rateless Coding for IoT Networks (30 min)</td>
                    </tr>
                    <tr>
                        <td>12:50 - 14:30</td>
@@ -93,7 +93,9 @@
                    <tr>
                        <td>10:50 - 12:20</td>
                        <td>Session 5<br>
-                           - Neelesh B. Mehta (IISc Bangalore): Channel Estimation Techniques for IRS (1 hour)</td>
+                         - Neelesh B. Mehta (IISc Bangalore): Channel Estimation Techniques for IRS (1 hour)<br>
+			 - Marco Di Renzo (CNRS and CentraleSupélec, Paris-Saclay University): Stacked Intelligent Metasurfaces: Communication, Computing and Sensing in the Wave Domain
+		       </td>
                    </tr>
                    <tr>
                        <td>12:20 - 14:00</td>
@@ -102,7 +104,7 @@
                    <tr>
                        <td>14:00 - 15:00</td>
                        <td>Session 6<br>
-                           - Sanjeev Sharma (IIT BHU): RIS-aided NOMA (30 min)<br>
+                           - Sanjeev Sharma (IIT BHU): Reconfigurable Intelligent Surfaces (RIS)-based Wireless Network Design and Analysis (30 min)<br>
                            - Brijesh Kumbhani (IIT Ropar): IRS Training in Multi-User Scenario (30 min)</td>
                    </tr>
                    <tr>
@@ -113,7 +115,7 @@
                        <td>15:20 - 16:20</td>
                        <td>Session 7<br>
                            - Jean-Marie Gorce (Inria, Lyon): Learning-based Solutions to CSI (30 min)<br>
-                           - Kuntal Deka: Delay-Doppler Communication (30 min)</td>
+                           - Kuntal Deka: Multi-user Communication Using OTFS (30 min)</td>
                    </tr>
                </table>
            </div>
@@ -157,8 +159,9 @@
                        <td>14:30 - 16:30</td>
                        <td>Lab Visits <br>
                            - Visit of Inria Saclay<br>
-                           - Aline Carneiro Viana: Visit of Team TRiBE, Inria Saclay<br>
-                           - Philippe Martins (Telecom Paris): Experimental Testbed Demo</td>
+                           - Aline Carneiro Viana and Nadjib Achir: Visit of Team TRiBE, Inria Saclay<br>
+                         - Philippe Martins (Telecom Paris): Experimental Testbed Demo<br>
+			 - Badii Jouaber (Telecom SudParis): Visit and Demonstration</td>		       
                    </tr>
                </table>
            </div>
