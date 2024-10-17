@@ -42,7 +42,7 @@ NAVBAR_FOOTER = '''
 
 
 external_url_list = [
-    ("https://6g-workshop.sciencesconf.org/registration", "Registration"),
+    ("https://6g-workshop.sciencesconf.org/registration", "Registration(closed)"),
     ]
 
 for (file_name, page_name) in file_list:

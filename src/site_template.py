@@ -351,7 +351,7 @@ NAVBAR = '''
 
 FOOTER = '''
       <footer class="text-center mt-5">
-        <p>© 2024 organizers of the "6G Wireless Networks" seminar | Funded by CEFIPRA and Inria</p>
+        <p>© 2024 organizers of the "6G Wireless Networks" seminar | Funded by CEFIPRA, France Relance and Inria</p>
 <p>Contacts: <a href="mailto:cedric.adjih@inria.fr">Cedric Adjih (Inria)</a> and <a href="mailto:kuntaldeka@iitg.ac.in">Kuntal Deka (IIT Guwahati)</a></p>
     </footer>
 '''
