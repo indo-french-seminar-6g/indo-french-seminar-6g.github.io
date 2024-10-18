@@ -161,17 +161,6 @@
         <!-- Scientific Committee Section -->
         <h4 class="text-center text-primary mb-4">Scientific Committee</h4>
         <ul class="organizers-list">
-            <!-- Scientific Committee Member 1 -->
-            <li>
-                <div class="organizers-info">
-                    <img src="img/nadjib-achir.jpg" alt="Nadjib Achir" class="organizers-photo">
-                    <div class="organizers-details">
-                        <strong>Dr. Nadjib Achir</strong>
-                        <p>Researcher , Inria</p>
-                    </div>
-                </div>
-            </li>
-
             <!-- Scientific Committee Member 2 -->
             <li>
                 <div class="organizers-info">
@@ -183,7 +172,16 @@
                     </div>
                 </div>
             </li>
-
+            <li>
+          <!-- Scientific Committee Member 1 -->
+                <div class="organizers-info">
+                    <img src="img/nadjib-achir.jpg" alt="Nadjib Achir" class="organizers-photo">
+                    <div class="organizers-details">
+                        <strong>Dr. Nadjib Achir</strong>
+                        <p>Researcher , Inria</p>
+                    </div>
+                </div>
+            </li>
             <!-- Scientific Committee Member 3 -->
             <li>
                 <div class="organizers-info">
@@ -221,23 +219,22 @@
         <h4 class="text-center text-primary mb-5">Local Organizers</h4>
         <ul class="organizers-list">
             <!-- Local Organizer 1 -->
-            <li>
-                <div class="organizers-info">
-                    <img src="img/DEBBAH_MEHDI_SOFIANE.jpg" alt="Debbah Mehdi Sofiane" class="organizers-photo">
-                    <div class="organizers-details">
-                        <strong>Debbah Mehdi Sofiane</strong>
-                        <p>Network and DevOps Engineer, INRIA</p>
-                        <p>Contact: <a href="mailto:mehdi-sofiane.debbah@inria.fr">send mail</a></p>
-                    </div>
-                </div>
-            </li>
+
             <li>
                 <div class="organizers-info">
                     <img src="img/Amira-Dhaouadi.jpg" alt="Amira Dhaouadi" class="organizers-photo">
                     <div class="organizers-details">
                         <strong>Amira Dhaouadi</strong>
-                        <p>PhD Student, INRIA</p>
-                        <p>Contact: <a href="mailto:amira.dhaouadi@inria.fr">send mail</a></p>
+                        <p>PhD Student, INRIA</p
+                    </div>
+                </div>
+            </li>
+             <li>
+                <div class="organizers-info">
+                    <img src="img/DEBBAH_MEHDI_SOFIANE.jpg" alt="Debbah Mehdi Sofiane" class="organizers-photo">
+                    <div class="organizers-details">
+                        <strong> Mehdi Sofiane Debbah</strong>
+                        <p>Network and DevOps Engineer, INRIA</p>
                     </div>
                 </div>
             </li>
@@ -248,7 +245,6 @@
                     <div class="organizers-details">
                         <strong>Saeed ALSABBAGH</strong>
                         <p>PhD Student, UVSQ</p>
-                        <p>Contact: <a href="mailto:saeed.alsabbagh@uvsq.fr">send mail</a></p>
                     </div>
                 </div>
 
