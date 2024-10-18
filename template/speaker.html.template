@@ -441,6 +441,17 @@
                                  <p>topic: Overview of the French Priority Research Program and Equipments for the Networks of the Future </p>
                              </div>
                          </div>
+                     </li>	
+                      <!-- Badii Jouaber -->
+                       <li>
+                         <div class="speaker-info">
+                             <img src="img/BadiiJouaber.jpeg" alt="Dr. Badii Jouaber " class="speaker-photo">
+                             <div class="speaker-details">
+                                 <strong> Dr. Badii Jouaber </strong>
+                                 <p> Telecom SudParis </p>
+                                 <p>topic:  Visit and Demonstration </p>
+                             </div>
+                         </div>
                      </li>			     
                  </ul>
              </div>

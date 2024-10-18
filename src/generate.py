@@ -17,6 +17,7 @@ file_list = [
     #("speaker.html", "Research Program"),    
     ("program.html", "Program"),
     ("speaker.html", "Speakers"),
+    ("organizers.html","Organizers")
     #("registration.html", "Registration")
 ]
 

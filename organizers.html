@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6G Wireless Networks Workshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-custom {
+            background-color: #0056b3;
+        }
+
+        .navbar-custom a {
+            color: white;
+        }
+
+        .header-logo img {
+            max-height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .header-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .header-subtitle {
+            font-size: 1.2rem;
+        }
+
+        .header {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header-text {
+            margin-top: 10px;
+        }
+
+        .nav-link {
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        .nav-link:hover {
+            color: #e2e6ea;
+        }
+
+        .section-title {
+            font-size: 28px;
+            color: #0056b3;
+            margin-bottom: 10px;
+        }
+
+        .organizers-section {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+
+        }
+
+        .organizers-section .section-title {
+            font-size: 2.5rem;
+            color: #003366;
+            text-align: center;
+            margin-bottom: 40px;;
+        }
+
+        .organizers-list {
+            list-style-type: none;
+            padding: 0;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .organizers-list li {
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 40px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .organizers-info {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+
+
+
+	.organizers-not-photo {
+	    height: 200px; /* Fixed height */
+	    width: auto; /* Adjust width automatically to maintain aspect ratio */
+	    border-radius: 50%;
+	    margin-right: 30px;
+	}
+
+ 
+	.organizers-photo {
+	    width: 200px;   /* Fixed width */
+	    height: 200px;  /* Fixed height */
+	    object-fit: cover;  /* Ensures the image covers the area without stretching */
+	    border-radius: 50%; /* Optional for circular images */
+	    margin-right: 30px;
+	}
+
+ 
+        .organizers-details {
+            text-align: left;
+        }
+
+        .organizers-details strong {
+            font-size: 1.5rem;
+            color: #0056b3;
+        }
+
+        .organizers-details p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        .organizers-details a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        .organizers-details a:hover {
+            text-decoration: underline;
+        }
+
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004080;
+            color: white;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0" tabindex="0">
+
+
+
+  
+   <!-- Header Section with 5 Logos (3 on the left, 2 on the right) -->
+    <div class="container-fluid bg-light">
+        <div class="row align-items-center header">
+            <!-- Left Logos (3 logos) -->
+            <div class="col-md-2 text-center header-logo">
+                <div class="row">
+                 <div class="col-10">
+                        <img src="img/CEFPIRA.png" alt="CEFIPRA Logo" class="img-fluid mb-2">
+                    </div>
+                
+                 <div class="col-6">
+                        <img src="img/Ministry_of_Science_and_Technology_India.svg" alt="INIDA Ministry Logo" class="img-fluid mt-2">
+                    </div>
+                 <div class="col-6">
+                        <img src="img/MDEA.jpg" alt="French Ministry Logo" class="img-fluid mb-2">
+                    </div>
+                   
+                </div>
+            </div>
+
+            <!-- Title and Subtitle -->
+            <div class="col-md-8 text-center header-text">
+                <p class="header-title">Indo-French Seminar </p>
+                
+                <p class="header-title">6G Wireless Networks: Challenges and Opportunities</p>
+                <p class="header-title"> October 9 - 10 - 11, 2024</p>
+                
+            </div>
+
+            <!-- Right Logos (2 logos) -->
+            <div class="col-md-2 text-center header-logo">
+                <div class="row">
+                   
+
+                     <div class="col-6">
+                        <img src="img/india2.png" alt="IIT (BHU) Varanasi logos " class="img-fluid mb-2">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/indianLogo.png" alt="IIT Guwahati  Logo" class="img-fluid mb-2">
+                    </div>
+<!--
+                    <div class="col-12">
+                        <img src="img/InriaLogo2.png" alt="Inria Logo" class="img-fluid mt-2">
+                    </div>
+                      <div class="col-12">
+                        <img src="img/france-relance.png" alt="Funded by France Relance" class="img-fluid mt-2">
+                    </div>
+-->
+                    <div class="col-6">
+                        <img src="img/InriaLogo2.png" alt="Inria Logo" class="img-fluid mb-2">
+                    </div>
+                      <div class="col-6">
+                        <img src="img/france-relance.png" alt="Funded by France Relance" class="img-fluid mb-2">
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="program.html">Program</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="speaker.html">Speakers</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="organizers.html">Organizers</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://6g-workshop.sciencesconf.org/registration">Registration(closed)</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+ 
+  <section id="organizers" class="organizers-section">
+    <div class="container">
+        <h3 class="section-title">Organizers</h3>
+
+        <!-- Scientific Committee Section -->
+        <h4 class="text-center text-primary mb-4">Scientific Committee</h4>
+        <ul class="organizers-list">
+            <!-- Scientific Committee Member 1 -->
+            <li>
+                <div class="organizers-info">
+                    <img src="img/nadjib-achir.jpg" alt="Nadjib Achir" class="organizers-photo">
+                    <div class="organizers-details">
+                        <strong>Dr. Nadjib Achir</strong>
+                        <p>Researcher , Inria</p>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Scientific Committee Member 2 -->
+            <li>
+                <div class="organizers-info">
+                    <img src="img/CedricAdjih.jpg" alt="Cédric Adjih" class="organizers-photo">
+                    <div class="organizers-details">
+                        <strong>Dr. Cédric Adjih</strong>
+                        <p> Researcher, Inria</p>
+
+                    </div>
+                </div>
+            </li>
+
+            <!-- Scientific Committee Member 3 -->
+            <li>
+                <div class="organizers-info">
+                    <img src="img/VinodKumar.jpg" alt="Dr. Vinod Kumar" class="organizers-photo">
+                    <div class="organizers-details">
+                        <strong>Dr. Vinod Kumarr </strong>
+                        <p> WWRF </p>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Scientific Committee Member 4 -->
+            <li>
+                <div class="organizers-info">
+                    <img src="img/KuntalDeka.jpg" alt="Kuntal Duka" class="organizers-photo">
+                    <div class="organizers-details">
+                        <strong>Kuntal Duka</strong>
+                        <p> Assistant Professor, IIT Guwahati </p>
+                    </div>
+                </div>
+            </li>
+                    <!-- Scientific Committee Member 5 -->
+            <li>
+                <div class="organizers-info">
+                    <img src="img/SanjeevSharma.jpg" alt="Sanjeev Sharma" class="organizers-photo">
+                    <div class="organizers-details">
+                        <strong>Sanjeev Sharma</strong>
+                        <p> Assistant Professor, IIT (BHU) Varanasi </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <!-- Local Organizers Section -->
+        <h4 class="text-center text-primary mb-5">Local Organizers</h4>
+        <ul class="organizers-list">
+            <!-- Local Organizer 1 -->
+            <li>
+                <div class="organizers-info">
+                    <img src="img/DEBBAH_MEHDI_SOFIANE.jpg" alt="Debbah Mehdi Sofiane" class="organizers-photo">
+                    <div class="organizers-details">
+                        <strong>Debbah Mehdi Sofiane</strong>
+                        <p>Network and DevOps Engineer, INRIA</p>
+                        <p>Contact: <a href="mailto:mehdi-sofiane.debbah@inria.fr">send mail</a></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="organizers-info">
+                    <img src="img/Amira-Dhaouadi.jpg" alt="Amira Dhaouadi" class="organizers-photo">
+                    <div class="organizers-details">
+                        <strong>Amira Dhaouadi</strong>
+                        <p>PhD Student, INRIA</p>
+                        <p>Contact: <a href="mailto:amira.dhaouadi@inria.fr">send mail</a></p>
+                    </div>
+                </div>
+            </li>
+            <!-- Local Organizer 2 -->
+            <li>
+                <div class="organizers-info">
+                    <img src="img/SaeedAlsabbagh.jpg" alt="Saeed ALSABBAGH"  class="organizers-photo">
+                    <div class="organizers-details">
+                        <strong>Saeed ALSABBAGH</strong>
+                        <p>PhD Student, UVSQ</p>
+                        <p>Contact: <a href="mailto:saeed.alsabbagh@uvsq.fr">send mail</a></p>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Local Organizer 3 -->
+
+        </ul>
+    </div>
+</section>
+
+
+
+
+</section>
+    </div>
+
+
+      <footer class="text-center mt-5">
+        <p>© 2024 organizers of the "6G Wireless Networks" seminar | Funded by CEFIPRA, France Relance and Inria</p>
+<p>Contacts: <a href="mailto:cedric.adjih@inria.fr">Cedric Adjih (Inria)</a> and <a href="mailto:kuntaldeka@iitg.ac.in">Kuntal Deka (IIT Guwahati)</a></p>
+    </footer>
+
