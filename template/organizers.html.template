@@ -200,7 +200,7 @@
                 <div class="organizers-info">
                     <img src="img/KuntalDeka.jpg" alt="Kuntal Duka" class="organizers-photo">
                     <div class="organizers-details">
-                        <strong>Kuntal Duka</strong>
+                        <strong> Dr .Kuntal Duka</strong>
                         <p> Assistant Professor, IIT Guwahati </p>
                     </div>
                 </div>
@@ -210,7 +210,7 @@
                 <div class="organizers-info">
                     <img src="img/SanjeevSharma.jpg" alt="Sanjeev Sharma" class="organizers-photo">
                     <div class="organizers-details">
-                        <strong>Sanjeev Sharma</strong>
+                        <strong> Dr. Sanjeev Sharma</strong>
                         <p> Assistant Professor, IIT (BHU) Varanasi </p>
                     </div>
                 </div>
@@ -251,9 +251,7 @@
                         <p>Contact: <a href="mailto:saeed.alsabbagh@uvsq.fr">send mail</a></p>
                     </div>
                 </div>
-            </li>
 
-            <!-- Local Organizer 3 -->
 
         </ul>
     </div>
