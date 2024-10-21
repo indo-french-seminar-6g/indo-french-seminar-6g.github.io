@@ -10,7 +10,17 @@
 
     <!-- Main Content -->
     <div class="container mt-4">
-        <section id="about">
+      <section id="about">
+
+
+
+<section id="news" class="agenda">
+    <h3 class="section-title">Latest News</h3>
+    <p>The slides of some presentations are linked in the <a href="program.html" target="_blank" class="btn btn-primary">program</a>.</p>
+</section>
+
+
+	
             <h2 class="section-title">About the Workshop</h2>
             
 	    <p>The Indo-French Seminar “6G Wireless Networks: Challenges and Opportunities” brings together cutting-edge advancements in wireless communication technologies, focusing on the future of 5G and 6G networks.</p>

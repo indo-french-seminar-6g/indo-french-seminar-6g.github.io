@@ -219,14 +219,20 @@ HEAD_PROGRAM = '''
         }
 
         .agenda-calendar th {
-            background-color: #004080; /* Dark blue background for the table headers */
-            color: white;
+            /* background-color: #004080;*/ /* Dark blue background for the table headers */
+            /*color: white;*/
+            /* [CA]: flipped white and black */
+            color: #004080;
+            background-color: white;
             font-weight: bold;
             text-align: center;
         }
 
         .agenda-calendar td {
-            background-color: #004080;
+            /*background-color: #004080;*/
+            /* [CA]: flipped white and black */
+            color: #004080;
+            background-color: white;
             font-size: 1.1rem;
         }
 
@@ -239,6 +245,9 @@ HEAD_PROGRAM = '''
             width: 80%;
         }
 
+        .agenda-calendar a {
+            color: red;
+        }
 
         footer {
             text-align: center;
